@@ -1,0 +1,19 @@
+/* LIBRARIES */
+@import url("~normalize.css");
+@import url("~slick-carousel/slick/slick.css");
+@import url("~@fortawesome/fontawesome-free/css/fontawesome.css");
+@import url('~filepond/dist/filepond.min.css');
+
+
+/* FOUNDATION */
+@import "mixins/mixins";
+@import "base/colors";
+@import "base/responsivness";
+@import "base/variables";
+@import "base/typography";
+@import "base/general";
+@import "base/icons";
+
+header{
+  background-image: url('./../assets/background/angry-regular.svg');
+}

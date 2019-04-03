@@ -1,0 +1,21 @@
+@mixin hide-text{
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@mixin scroll {
+  ::-webkit-scrollbar {
+    width: 7px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: black;
+  }
+  ::-webkit-scrollbar-track {
+    background: $lightSilver;
+  }
+}
+
+@function half-container-width($container-width, $container-padding){
+  @return $container-width / 2 - $container-padding;
+}

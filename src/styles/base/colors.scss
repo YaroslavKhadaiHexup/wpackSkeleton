@@ -1,0 +1,41 @@
+$orange: #F4710C;
+$darkOrange: #BE6A14;
+$red: #FF0000;
+
+$green: #26D07C;
+$deepBlue: #00385f;
+$darkBlue: #162230;
+
+$black: #000000;
+$gray:  #575756;
+$gray3: #333333;
+$middleGrey: #5A5A5A;
+$brown: #584C43;
+$lightGrey: #A6A6A0;
+$white: #FFFFFF;
+$colors: () !default;
+$colors: map-merge(
+  (
+    "orange": $orange,
+    "darkOrange": $darkOrange,
+    "green": $green,
+    "darkBlue": $darkBlue,
+    "gray": $gray,
+    "brown": $brown,
+    "lightGrey": $lightGrey,
+    "white": $white,
+    "black": $black,
+    "middleGrey": $middleGrey,
+    "deepBlue": $deepBlue,
+    "red": $red
+  ),
+  $colors
+);
+
+%text-colors {
+  @each $color, $value in $colors {
+    &.#{$color} {
+      color: ($value);
+    }
+  }
+}

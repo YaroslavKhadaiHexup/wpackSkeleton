@@ -4,8 +4,8 @@
   "description": "Front-End part of Website project",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --open --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js"
+    "start": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production"
   },
   "author": "Yura Hurnyak",
   "license": "ISC",

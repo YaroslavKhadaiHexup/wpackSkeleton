@@ -10,3 +10,7 @@ To build the project to dist folder run\
 
 
 To add .svg as background image use only `assets/background` folder
+
+Project supports:
+ - video files
+ - SVG background

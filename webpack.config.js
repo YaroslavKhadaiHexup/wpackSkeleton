@@ -111,12 +111,6 @@ module.exports = (env, options) => {
                     {
                         loader: 'css-loader'
                     },
-                    {
-                        loader: 'sass-loader',
-                        options: {
-                            outputStyle: 'compressed'
-                        }
-                    },
 
                     {
                         loader: 'postcss-loader',
@@ -133,7 +127,13 @@ module.exports = (env, options) => {
                                 })
                             ]
                         }
-                    }
+                    },
+            {
+                loader: 'sass-loader',
+                options: {
+                    outputStyle: 'compressed'
+                }
+            }
                 ]
             },
             {

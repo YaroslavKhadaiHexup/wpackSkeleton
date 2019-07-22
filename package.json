@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --open --mode development",
+    "share": "webpack-dev-server --open --mode development --hot --host 0.0.0.0",
     "build": "webpack --mode production"
   },
   "author": "Yura Hurnyak",
@@ -37,7 +38,7 @@
     "@babel/polyfill": "^7.2.5",
     "filepond": "^4.2.0",
     "filepond-polyfill": "^1.0.2",
-    "jquery": "^3.3.1",
+    "jquery": "^3.4.1",
     "normalize.css": "^8.0.1",
     "slick-carousel": "^1.8.1"
   }

@@ -13,6 +13,8 @@ $middleGrey: #5A5A5A;
 $brown: #584C43;
 $lightGrey: #A6A6A0;
 $white: #FFFFFF;
+
+//it adds color name as class.Example: class='button orange'
 $colors: () !default;
 $colors: map-merge(
   (

@@ -38,7 +38,7 @@
     "@babel/polyfill": "^7.2.5",
     "filepond": "^4.2.0",
     "filepond-polyfill": "^1.0.2",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "normalize.css": "^8.0.1",
     "popper.js": "^1.15.0",
     "slick-carousel": "^1.8.1"
